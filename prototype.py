@@ -1,8 +1,11 @@
+import time
 print("Welcome to Alco-Tech! If you're looking forward to launching your business, you're in the right place.")
-time.sleep(1)  # Pause execution for N seconds
+time.sleep(3)  # Pause execution for N seconds
 print("We can help prevent you from launcing your business in locations that could potentially violate the Section 27.")
+time.sleep(2)
 print("\n")
 print("All you have to do is just enter your wishlisted location.")
+time.sleep(1)
 while True:
     import geopy.distance
     import time
@@ -16,6 +19,7 @@ while True:
 
     storecoords = []
 
+    time.sleep(1)
     x = float(input("Enter the latitude: "))
     y = float(input("Enter the longtitude: "))
     storecoords.append((x,y))
@@ -42,14 +46,13 @@ while True:
         print("Your location is perfect! :)")
 
     print("\n")
+    time.sleep(2)
     answer = input("Would you like to check other locations? (Type Y for Yes, and N for No): ")
-    if answer = "N":
+    if answer == "N":
         break
     else:
+        print("/n")
         continue
 
 print("\n")
 print("Thank you for using our service.")
-
-
-# Output is 80.44780898525379
