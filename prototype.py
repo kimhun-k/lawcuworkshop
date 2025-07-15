@@ -1,7 +1,7 @@
 import time
 print("Welcome to Alco-Tech! If you're looking forward to launching your business, you're in the right place.")
-time.sleep(2)  # Pause execution for N seconds
-print("We can help prevent you from launcing your business in locations that could potentially violate the Section 27.")
+time.sleep(3)  # Pause execution for N seconds
+print("We can help prevent you from launching your business in locations that could potentially violate the Section 27.")
 time.sleep(3)
 print("\n")
 print("All you have to do is just enter your wishlisted location.")
