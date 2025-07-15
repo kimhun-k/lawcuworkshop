@@ -1,11 +1,11 @@
 import time
 print("Welcome to Alco-Tech! If you're looking forward to launching your business, you're in the right place.")
-time.sleep(3)  # Pause execution for N seconds
+time.sleep(2)  # Pause execution for N seconds
 print("We can help prevent you from launcing your business in locations that could potentially violate the Section 27.")
-time.sleep(2)
+time.sleep(3)
 print("\n")
 print("All you have to do is just enter your wishlisted location.")
-time.sleep(1)
+time.sleep(2)
 while True:
     import geopy.distance
     import time
@@ -18,6 +18,10 @@ while True:
     gencoords_2 = (13.734673700136422, 100.52678132524451) # Put in latitude and longtitude
 
     storecoords = []
+
+    city = input("First of all, what city in Thailand would you like to launch your business in?: ")
+    print("\n")
+    print(city + " is such a good choice!")
 
     time.sleep(1)
     x = float(input("Enter the latitude: "))
